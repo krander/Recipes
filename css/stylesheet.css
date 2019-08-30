@@ -38,3 +38,9 @@ section{
     padding-right: 2em;
     line-height: 1.25em;
 }
+
+.thumbnail {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
