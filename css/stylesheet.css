@@ -1,0 +1,40 @@
+/* stylesheet.css */
+/* Katie Anderson */
+/* August 30, 2019 */
+
+/* sets page defaults */
+html {
+    font-size: 62.5%;
+    font-family: helvetica, arial, sans-serif;
+    background: gainsboro;
+}
+
+.wrapper {
+    width: 80em;
+    margin: 2em auto;
+    padding: 2em;
+    background: white;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-weight: 600;
+    padding-bottom: 2em;
+}
+
+h2{
+   font-weight: 600;
+   font-style: italic;
+   display: inline;
+}
+
+section{
+    font-size: 1.25em;
+    padding-top: 5em;
+    padding-right: 2em;
+    line-height: 1.25em;
+}
