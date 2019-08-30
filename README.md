@@ -5,3 +5,5 @@
 ### Phase two features
 - [ ] Choose random recipe
 - [ ] Update serving size
+- [ ] Search
+- [ ] Sort by
