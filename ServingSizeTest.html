@@ -1,0 +1,36 @@
+$(function() {
+    $('.serving').bind('keyup', function(event) {
+        var previousValue = parseFloat($("#previousServing").val());
+        var newValue = parseFloat($(event.target).val());
+        if (previousValue && newValue) {
+            $('.ingredient').each(function(index, elem) {
+                var ingredientNow = $('.amount', elem);
+                var oldIngredientAmount = ingredientNow.text();
+                var newIngredientAmount = oldIngredientAmount * newValue / previousValue;
+                ingredientNow.text(newIngredientAmount);
+            });
+            $('#previousServing').val(newValue);
+        }
+    });
+});
+
+Serving: <input type="text" name="serving" class="serving" value="5" /> persons
+<input type="hidden" id="previousServing" value="5" />
+
+<h3>ingredients</h3>
+<ul class="ingredients">
+    <li class="ingredient">
+        <span class="amount">1</span> cups
+        <span class="name"><a href="http://www.mysite.com/ingredient/yogurt/">yogurt</a></span>
+    </li>
+
+    <li class="ingredient">
+        <span class="amount">2</span> tbsp
+        <span class="name"><a href="http://www.mysite.com/ingredient/yogurt/">chillies</a></span>
+    </li>
+
+    <li class="ingredient">
+        <span class="amount">3</span> pieces
+        <span class="name"><a href="http://www.mysite.com/ingredient/yogurt/">butter</a></span>
+    </li>
+</ul>
