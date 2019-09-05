@@ -1,1 +1,71 @@
-Testing 1...2...3...
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Scale Recipe by rviscomi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Scale Recipe</h1>
+        <p>JS library that scales a list of ingredients of a recipe and converts up and down units accordingly.</p>
+        <p class="view"><a href="https://github.com/rviscomi/scale-recipe">View the Project on GitHub <small>rviscomi/scale-recipe</small></a></p>
+        <ul>
+          <li><a href="https://github.com/rviscomi/scale-recipe/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rviscomi/scale-recipe/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rviscomi/scale-recipe">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>Demo</h1>
+        <p>
+          Change the number in the input field and watch the ingredients scale accordingly.
+        </p>
+
+        <section class="recipe">
+          <h1>Pasta Dough</h1>
+          <h2>Serves 4</h2>
+
+          <ul>
+            <li>4 eggs</li>
+            <li>4 cups flour</li>
+            <li>1/4 cup olive oil</li>
+            <li>1 tablespoon salt</li>
+          </ul>
+        </section>
+
+        <h2>Usage</h1>
+        <pre>recipe.init(document.querySelector('.recipe'));</pre>
+
+        <h2>Features</h2>
+        <ul>
+          <li>A numeric stepper is injected in the serving size to adjust the yield.</li>
+          <li>Units will change when too big or too small. For example, 1/4 cup becomes 3 tablespoons.</li>
+          <li>Units will become plural/singular when grammatically necessary.</li>
+          <li>Fractional units will be displayed in the simplest representation. For example, 1/2 instead of 2/4.
+        </ul>
+
+        <h2>Status</h2>
+        <a href="https://travis-ci.org/rviscomi/scale-recipe"><img src="https://travis-ci.org/rviscomi/scale-recipe.svg?branch=master"/></a>
+      </section>
+    </div>
+    
+    <footer>
+      <p>Project maintained by <a href="https://github.com/rviscomi">rviscomi</a></p>
+    </footer>
+
+    <script src="recipe.js"></script>
+    <script>recipe.init(document.querySelector('.recipe'))</script>
+    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>
