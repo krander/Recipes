@@ -1,22 +1,3 @@
-<!--http://jsfiddle.net/vansimke/tLWpr/-->
-<script>
-    $(function() {
-        $('.serving').bind('keyup', function(event) {
-            var previousValue = parseFloat($("#previousServing").val());
-            var newValue = parseFloat($(event.target).val());
-            if (previousValue && newValue) {
-                $('.ingredient').each(function(index, elem) {
-                    var ingredientNow = $('.amount', elem);
-                    var oldIngredientAmount = ingredientNow.text();
-                    var newIngredientAmount = oldIngredientAmount * newValue / previousValue;
-                    ingredientNow.text(newIngredientAmount);
-                });
-                $('#previousServing').val(newValue);
-            }
-        });
-    });
-</script>
-
 Serving: <input type="text" name="serving" class="serving" value="5" /> persons
 <input type="hidden" id="previousServing" value="5" />
 
@@ -37,3 +18,22 @@ Serving: <input type="text" name="serving" class="serving" value="5" /> persons
         <span class="name"><a href="http://www.mysite.com/ingredient/yogurt/">butter</a></span>
     </li>
 </ul>
+
+<!--http://jsfiddle.net/vansimke/tLWpr/-->
+<script>
+    $(function() {
+        $('.serving').bind('keyup', function(event) {
+            var previousValue = parseFloat($("#previousServing").val());
+            var newValue = parseFloat($(event.target).val());
+            if (previousValue && newValue) {
+                $('.ingredient').each(function(index, elem) {
+                    var ingredientNow = $('.amount', elem);
+                    var oldIngredientAmount = ingredientNow.text();
+                    var newIngredientAmount = oldIngredientAmount * newValue / previousValue;
+                    ingredientNow.text(newIngredientAmount);
+                });
+                $('#previousServing').val(newValue);
+            }
+        });
+    });
+</script>
