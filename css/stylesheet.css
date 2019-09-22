@@ -6,7 +6,8 @@
 html {
     font-size: 62.5%;
     font-family: helvetica, arial, sans-serif;
-    background: gainsboro;
+    color: rgb(97, 97, 97);
+    background: rgb(245, 245, 245);
 }
 
 .wrapper {
@@ -26,26 +27,7 @@ h1{
     padding-bottom: 2em;
 }
 
-h2{
-   font-weight: 600;
-   font-style: italic;
-   display: inline;
-}
-
-section{
-    font-size: 1.25em;
-    padding-top: 5em;
-    padding-right: 2em;
-    line-height: 1.25em;
-}
-
-.thumbnail {
-  object-fit: cover;
-  width: 200px;
-  height: 200px;
-}
-
-/* Maple Balsamic Brussel Sprouts */
+/* hover grid */
 .MBBS__wrap {
   position: relative;
   height: 200px;
@@ -58,8 +40,9 @@ section{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(36, 62, 206, 0.6);
-  color: #fff;
+  font-size: 2em;
+  background: rgba(159, 168, 218, 0.9);
+  color: rgb(245, 245, 245);
   visibility: hidden;
   opacity: 0;
   display: flex;
