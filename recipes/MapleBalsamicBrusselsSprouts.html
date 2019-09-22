@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,35 +7,45 @@
     <meta name="robots" content="noindex,nofollow">
     <meta name="author" content="Katie Anderson">
     <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <link rel="stylesheet" href="css/stylesheet2.css">
+    <link rel="stylesheet" href="css/github-dark.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 
-<body>
-    <h1>Maple Balsamic Brussels Sprouts</h1>
-    <img src="https://i.ibb.co/J2FgYW2/Screen-Shot-2019-08-30-at-1-28-49-PM.png" alt="Maple Balsamic Brussels Sprouts" border="0">
-    <h2>Servings: 4</h2>
-    <h3>Source: <a href="https://www.mydarlingvegan.com/maple-balsamic-brussels-sprouts-with-hazelnuts-and-rosemary/">My Darling Vegan</a></h3>
+    <div class="wrapper">
 
-    <h4>Ingredients</h4>
-    <ul>
-        <li>4 cups Brussels sprouts, halved</li>
-        <li>2 tablespoons olive oil</li>
-        <li>1/2 red onion, thinly sliced</li>
-        <li>2-3 garlic cloves, minced</li>
-        <li>salt and pepper, to taste</li>
-        <li>3 tablespoons balsamic vinegar</li>
-        <li>2 teaspoon maple syrup</li>
-    </ul>
+        <section class="recipe">
+            <h1>Maple Balsamic Brussels Sprouts</h1>
+            <h2>Serves 4</h2>
 
-    <h4>Directions</h4>
-    <ol>
-        <li>1. Preheat the oven to 425 degrees F.</li>
-        <li>2. Wash and half the Brussels Sprouts and toss them with oil, onions, garlic, salt, and pepper. Spread onto a baking sheet in a single layer and bake for about 30 minutes, stirring occasionally, until browned on the outside and tender on the inside.</li>
-        <li>3. Stir together balsamic vinegar and maple syrup and set aside.</li>
-        <li>4. Remove from oven and toss with maple balsamic glaze.</li>
-    </ol>
+            <ul>
+                <li>4 cups brussels sprouts, halved</li>
+                <li>2 tablespoon olive oil</li>
+                <li>1/2 red onion</li>
+                <li>3 garlic cloves, minced</li>
+                <li>salt and pepper to taste</li>
+                <li>3 tablespoon balsamic vinegar</li>
+                <li>2 teaspoon maple syrup</li>
+            </ul>
+        </section>
 
-</body>
 
+        <h2>Features</h2>
+        <ol>
+            <li>Preheat the oven to 425 degrees F.</li>
+            <li>Wash and half the Brussels Sprouts and toss them with oil, onions, garlic, salt, and pepper.</li>
+            <li>Spread onto a baking sheet in a single layer and bake for about 30 minutes, stirring occasionally, until browned on the outside and tender on the inside.</li>
+            <li>Stir together balsamic vinegar and maple syrup and set aside.</li>
+            <li>Remove from oven and toss with maple balsamic glaze.</li>
+        </ol>
+
+
+
+        <script src="recipe.js"></script>
+        <script>
+            recipe.init(document.querySelector('.recipe'))
+        </script>
+        <script src="js/scale.fix.js"></script>
+    </div>
 </html>
