@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="author" content="Katie Anderson">
+    <link rel="icon" href="icon.png">
+
+    <link rel="stylesheet" href="css/stylesheet2.css">
+    <link rel="stylesheet" href="css/github-dark.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+    <div class="wrapper">
+
+        <section class="recipe">
+            <h1>Spinach Tortellini Soup</h1>
+            <h2>Serves 4</h2>
+            <h3>Source: <a href="https://umamigirl.com/spinach-tortellini-soup/">Umami Girl</a></h3>
+
+            <ul>
+                <li>2 tablespoon olive oil</li>
+                <li>1 medium yellow onion, diced</li>
+                <li>2	large carrots, diced</li>
+                <li>2	large celery stalks, diced</li>
+                <li>1	teaspoon salt</li>
+                <li>8	cup vegetable broth</li>
+                <li>5	ounce baby spinach</li>
+                <li>9 ounce tortellini</li>
+                <li>1/4 cup chopped parsley</li>
+                <li>Ground black pepper</li>
+                <li>Grated parmesan, for serving</li>
+            </ul>
+        </section>
+
+        <h2>Directions</h2>
+        <ol>
+            <li>Heat the olive oil in a large pot over medium-high heat. Add onion, carrots, celery and salt and stir to coat with oil. Cook for about 5 minutes, stirring occasionally, until beginning to soften.</li>
+            <li>Stir in stock, bring to a boil, then cover and reduce heat to simmer until veggies are tender.</li>
+            <li>Remove lid and add spinach and tortellini. Cook according to tortellini package instructions.</li>
+            <li>Take off the heat, stir in parsley and black pepper to taste.</li>
+            <li>Ladle into bowls and serve with cheese to pass at the table.</li>
+        </ol>
+
+    </div>
+        <script src="recipe.js"></script>
+        <script>
+            recipe.init(document.querySelector('.recipe'))
+        </script>
+        <script src="js/scale.fix.js"></script>
+
+</html>
