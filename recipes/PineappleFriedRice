@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="author" content="Katie Anderson">
+    <link rel="icon" href="icon.png">
+
+    <link rel="stylesheet" href="css/stylesheet2.css">
+    <link rel="stylesheet" href="css/github-dark.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+    <div class="wrapper">
+
+        <section class="recipe">
+            <h1>Pineapple Vegan Fried Rice</h1>
+            <h2>Serves 4</h2>
+            <h3>Source: <a href="https://veganhuggs.com/pineapple-fried-rice-vegan-gf/">Vegan Huggs</a></h3>
+
+            <ul>
+                <li>2 tablespoon olive oil</li>
+                <li>1 small red onion, diced</li>
+                <li>3 cloves garlic, minced</li>
+                <li>1 tablespoon ginger, grated</li>
+                <li>1/2 teaspoon crushed red pepper (optional)</li>
+                <li>1 cup carrots, peeled & diced (or matchstick)</li>
+                <li>1 1/2 cups pineapple chunks, fresh or canned</li>
+                <li>3 cups cooked rice, chilled for 6-8 hours if possible</li>
+                <li>1/2 cup green onion, sliced + more for topping</li>
+                <li>3 tablespoon soy sauce (or tamari)</li>
+                <li>1 1/2 teaspoon curry powder</li>
+                <li>1/2 cup frozen peas, thawed</li>              
+            </ul>
+        </section>
+
+        <h2>Directions</h2>
+        <ol>
+            <li>Whisk the tamari and curry powder together. Set aside.</li>
+            <li>Heat olive oil in a large pan over medium heat. Add onions and sauté for 2-3 minutes, until softened.</li>
+            <li>Now add the garlic, ginger, red chili pepper flakes, and carrots. Sauté 7-9 minutes or until carrots are tender.</li>
+            <li>Add the pineapple chunks and sauté until slightly browned, about 4-5 minutes</li>
+            <li>Add soy sauce, rice, peas, and green onions. Stir frequently. Taste for seasoning and add more if needed. Cook about 4-5 minutes, until all ingredients are combined and heated through.</li>
+            <li>Remove from heat. Enjoy!</li>
+        </ol>
+
+    </div>
+        <script src="recipe.js"></script>
+        <script>
+            recipe.init(document.querySelector('.recipe'))
+        </script>
+        <script src="js/scale.fix.js"></script>
+
+</html>
