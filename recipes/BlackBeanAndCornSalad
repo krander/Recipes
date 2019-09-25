@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="author" content="Katie Anderson">
+    <link rel="icon" href="icon.png">
+
+    <link rel="stylesheet" href="css/stylesheet2.css">
+    <link rel="stylesheet" href="css/github-dark.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+    <div class="wrapper">
+
+        <section class="recipe">
+            <h1>Black Bean & Corn Salad</h1>
+            <h2>Serves 4</h2>
+            <h3>Source: <a href="https://iheartvegetables.com/easy-black-bean-corn-salad/">I Heart Vegetables</a></h3>
+
+            <ul>
+                <li>1 1/2 cups of corn (1 1/2c = 2 ears)</li>
+                <li>2 tablespoons lime juice (1 Tbsp = 1 lime)</li>
+                <li>1 teaspoon honey or agave</li>
+                <li>1 large tomato</li>
+                <li>1 15oz can of black beans, rinsed and drained</li>
+                <li>1 avocado, diced</li>
+                <li>A handful of fresh cilantro</li>
+                <li>1/4 teaspoon of salt, or to taste</li>
+            </ul>
+        </section>
+
+        <h2>Directions</h2>
+        <ol>
+            <li>Bring a large pot of water to a boil.</li>
+            <li>Boil the corn for 4 minutes or until tender.</li>
+            <li>While the corn is cooking, whisk together the lime juice and honey or agave.</li>
+            <li>Slice the tomato into chunks and add them to a large bowl.</li>
+            <li>Add in the beans and corn then stir in the lime juice.</li>
+            <li>Just before serving, add the avocado and cilantro. Add salt to taste.</li>
+            <li>Eat with a spoon, on a taco, with chips, or on a salad!</li>
+        </ol>
+
+    </div>
+        <script src="recipe.js"></script>
+        <script>
+            recipe.init(document.querySelector('.recipe'))
+        </script>
+        <script src="js/scale.fix.js"></script>
+
+</html>
