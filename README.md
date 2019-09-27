@@ -5,5 +5,6 @@
 ### Phase two features
 - [x] Choose random recipe
 - [x] Update serving size https://rviscomi.github.io/scale-recipe/
+- [x] Suggest recipe
 - [ ] Search
 - [ ] Sort by
