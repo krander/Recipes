@@ -6,5 +6,6 @@
 - [x] Choose random recipe
 - [x] Update serving size https://rviscomi.github.io/scale-recipe/
 - [x] Suggest recipe
+- [ ] Mobile friendly (aka responsive)
 - [ ] Search
 - [ ] Sort by
