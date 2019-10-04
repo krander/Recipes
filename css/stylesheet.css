@@ -9,20 +9,3 @@ html {
     color: rgb(97, 97, 97);
     background: rgb(245, 245, 245);
 }
-
-.wrapper {
-    width: 80em;
-    margin: 2em auto;
-    padding: 2em;
-    background: white;
-}
-
-h1{
-    font-size: 3em;
-    text-align: center;
-    padding: 0.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
-    font-weight: 600;
-    padding-bottom: 2em;
-}
