@@ -9,7 +9,8 @@ randomlinks[5]="https://krander.github.io/Recipes/recipes/PineappleFriedRice.htm
 randomlinks[6]="https://krander.github.io/Recipes/recipes/SpicyCauliflowerPowerBowl.html"
 randomlinks[7]="https://krander.github.io/Recipes/recipes/SpinachTortelliniSoup.html"
 randomlinks[8]="https://krander.github.io/Recipes/recipes/SweetandSpicyBakedCauliflower.html"
-randomlinks[9]="https://krander.github.io/Recipes/recipes/VegetableLoMein.html"
+randomlinks[9]="https://krander.github.io/Recipes/recipes/VegetableFritters.html"
+randomlinks[10]="https://krander.github.io/Recipes/recipes/VegetableLoMein.html"
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 }
