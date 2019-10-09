@@ -1,6 +1,14 @@
 /* sets page defaults */
 html {
-    font-family: helvetica, arial, sans-serif;
+    font-family: font-family: 'Open Sans', sans-serif;;    
     color: rgb(97, 97, 97);
     background: rgb(245, 245, 245);
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
