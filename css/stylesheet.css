@@ -6,9 +6,15 @@ html {
 }
 
 h1 {
+    font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h3 {
+    font-size: 0.75em;
 }
