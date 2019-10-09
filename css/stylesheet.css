@@ -8,6 +8,15 @@ header {
     padding: 1em;
 }
 
+a {
+   color:  rgb(97, 97, 97);
+   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 87, 51);
+}
+
 h1 {
     padding: 0.5em;
     font-size: 2em;
