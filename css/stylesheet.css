@@ -1,11 +1,15 @@
-/* sets page defaults */
 html {
     font-family: 'Open Sans', sans-serif;;    
     color: rgb(97, 97, 97);
     background: rgb(245, 245, 245);
 }
 
+header {
+    padding: 1em;
+}
+
 h1 {
+    padding: 0.5em;
     font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
 }
