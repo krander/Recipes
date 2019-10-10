@@ -5,7 +5,8 @@ html {
 }
 
 header {
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 a {
@@ -18,7 +19,7 @@ a:hover {
 }
 
 h1 {
-    padding: 0.5em;
+    padding-bottom: 0.5em;
     font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -31,3 +32,8 @@ h2 {
 h3 {
     font-size: 0.75em;
 }
+
+body{
+    padding-left: 2em;
+}
+
