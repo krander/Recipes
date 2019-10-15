@@ -37,3 +37,16 @@ body{
     padding-left: 2em;
 }
 
+.thumbnail { 
+  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
+}
+
+.thumbnail a {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+/* .thumb1 a:hover { YOUR HOVER STYLES HERE } */
