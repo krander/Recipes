@@ -1,7 +1,7 @@
 //specify random links below
 var randomlinks=new Array()
 randomlinks[0]="https://krander.github.io/Recipes/recipes/BlackBeanAndCornSalad.html"
-randomlinks[1]="https://krander.github.io/Recipes/recipes/CrispySheetPanGnocchiAndVeggies.html"
+randomlinks[1]="https://krander.github.io/Recipes/recipes/vegetarian/CrispySheetPanGnocchiAndVeggies.html"
 randomlinks[2]="https://krander.github.io/Recipes/recipes/sidedishes/MapleBalsamicBrusselsSprouts.html"
 randomlinks[3]="https://krander.github.io/Recipes/recipes/OnePanMexicanQuinoa.html" 
 randomlinks[4]="https://krander.github.io/Recipes/recipes/PastaPrimavera.html"  
