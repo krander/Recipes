@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="author" content="Katie Anderson">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://krander.github.io/Recipes/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://krander.github.io/Recipes/js/randomLinks.js"></script>
+</head>
+    
+    <header>
+    <a href="https://krander.github.io/Recipes/index.html">Home</a> | 
+    <a href="mailto:kanderson632@gmail.com?Subject=Recipe%20suggestion" target="_blank">Suggest Recipe</a> | 
+    <a href="javascript:randomlink()">Random Recipe</a>
+</header>
+
+    <div class="wrapper">
+
+        <section class="recipe">
+            <h1>Mom's Fruit Salad</h1>
+            <h2>Serves 7</h2>
+
+            <ul>
+                <li>20 oz can pineapple chunks, drained</li>
+                <li>1/4 cup pineapple juice</li>
+                <li>11 oz can mandarin oranges</li>
+                <li>1 banana, sliced</li>
+                <li>1 kiwi, sliced</li>
+                <li>1 tablespoon honey</li>
+                <li>2 tablespoon lime juice</li>
+                <li>1/4 teaspoon lemon zest</li>
+            </ul>
+        </section>
+
+        <h2>Directions</h2>
+        <ol>
+            <li>Combine fruits</li>
+            <li>Combine liquids once ready to be served</li>
+        </ol>
+
+    </div>
+        <script src="https://krander.github.io/Recipes/js/recipe.js"></script>
+        <script src="https://krander.github.io/Recipes/js/QuerySelector.js"></script>
+        <script src="https://krander.github.io/Recipes/js/scale.fix.js"></script>
+
+</html>
