@@ -11,6 +11,7 @@ randomlinks[7]="https://krander.github.io/Recipes/recipes/SpinachTortelliniSoup.
 randomlinks[8]="https://krander.github.io/Recipes/recipes/SweetandSpicyBakedCauliflower.html"
 randomlinks[9]="https://krander.github.io/Recipes/recipes/VegetableFritters.html"
 randomlinks[10]="https://krander.github.io/Recipes/recipes/VegetableLoMein.html"
+randomlinks[10]="https://krander.github.io/Recipes/recipes/MomsFruitSalad.html"
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 }
