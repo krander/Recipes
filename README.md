@@ -8,4 +8,4 @@
 - [x] Suggest recipe
 - [ ] Mobile friendly (aka responsive)
 - [ ] Search
-- [ ] Sort by
+- [x] Sort by
